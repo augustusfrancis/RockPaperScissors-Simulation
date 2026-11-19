@@ -31,13 +31,13 @@ RockPaperScissors-Simulation/
 │   └── RockPaperScissors.js
 ├── styles/
 │   └── RockPaperScissors.css
-├── RockPaperScissors.html
+├── index.html
 └── README.md
 ```
 
 ## File Descriptions
 
-- **RockPaperScissors.html**: Main HTML file containing the game structure
+- **index.html**: Main HTML file containing the game structure
 - **RockPaperScissors.js**: JavaScript logic for game mechanics, score tracking, and local storage
 - **RockPaperScissors.css**: Styling for the game interface with dark theme and centered layout
 - **images/**: Contains emoji icons for rock, paper, and scissors
@@ -45,9 +45,11 @@ RockPaperScissors-Simulation/
 ## How to Run
 
 1. Clone or download this repository
-2. Open `RockPaperScissors.html` in any modern web browser
+2. Open `index.html` in any modern web browser
 3. Click on any move button to start playing
 4. Your scores will be automatically saved
+
+**Or visit the live demo:** [GitHub Pages Link]
 
 ## Technologies Used
 
