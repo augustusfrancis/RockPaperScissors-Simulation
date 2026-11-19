@@ -13,12 +13,6 @@ A simple, interactive browser-based Rock Paper Scissors game built with vanilla 
 - **Reset Functionality**: Clear all scores with a single click
 - **Responsive Design**: Clean, centered layout with a dark theme
 
-## Game Rules
-
-- **Rock** beats Scissors
-- **Scissors** beats Paper
-- **Paper** beats Rock
-
 ## Project Structure
 
 ```
