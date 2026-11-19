@@ -43,7 +43,7 @@ RockPaperScissors-Simulation/
 3. Click on any move button to start playing
 4. Your scores will be automatically saved
 
-**Or visit the live demo:** [GitHub Pages Link]
+**Or visit the live demo:** https://augustusfrancis.github.io/RockPaperScissors-Simulation/
 
 ## Technologies Used
 
