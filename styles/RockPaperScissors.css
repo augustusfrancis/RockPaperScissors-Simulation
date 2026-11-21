@@ -35,10 +35,12 @@ body{
     margin-top: 60px;
 }
 
-.reset-score-button{
-    background-color: white;
+.reset-score-button, .auto-play-button-css{
+    background-color: orange;
     border: none;
     font-size: 15px;
-    padding: 8px 15px;
+    padding: 8px 20px;
     cursor: pointer;
+    border-radius: 20px;
+    width: 200px
 }

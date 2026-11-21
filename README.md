@@ -5,6 +5,7 @@ A simple, interactive browser-based Rock Paper Scissors game built with vanilla 
 ## Features
 
 - **Interactive Gameplay**: Click on rock, paper, or scissors buttons to play against the computer
+- **Auto Play Mode**: Automatically simulate games every second with randomly selected moves
 - **Random Computer Moves**: Computer randomly selects its move for fair gameplay
 - **Live Results**: See the outcome of each round instantly
 - **Visual Feedback**: Display both player and computer moves with emoji icons
@@ -40,8 +41,10 @@ RockPaperScissors-Simulation/
 
 1. Clone or download this repository
 2. Open `index.html` in any modern web browser
-3. Click on any move button to start playing
-4. Your scores will be automatically saved
+3. Click on any move button to start playing manually
+4. Click "Auto Play" to watch the computer play against itself automatically (games run every second)
+5. Click "Stop Auto Play" to pause the automatic gameplay
+6. Your scores will be automatically saved
 
 **Or visit the live demo:** https://augustusfrancis.github.io/RockPaperScissors-Simulation/
 
@@ -55,6 +58,8 @@ RockPaperScissors-Simulation/
 ## Game Mechanics
 
 - Computer move is generated using `Math.random()` with equal probability (1/3) for each choice
+- Auto play uses `setInterval()` to automatically trigger games every 1 second
+- Both player and computer moves are randomly generated in auto play mode
 - Scores are stored as a JSON object in browser's local storage
 - Results are displayed dynamically after each round
 - Score persists even after closing the browser
